@@ -1,0 +1,17 @@
+
+exclude: ["readme.md", "Rakefile", "changelog.md"]
+auto: true
+pygments: true
+
+title: julioes.com
+
+author:
+  name: Julio Espinoza-Sokal
+  email: julioes@gmail.com
+  github: julioes
+  twitter: jespinozasokal
+
+production_url: http://julioes.github.com
+
+permalink: /:year/:month/:title
+

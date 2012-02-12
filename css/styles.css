@@ -1,0 +1,13 @@
+.navbar-inner {
+  background-color: #422;
+  background-image: -moz-linear-gradient(left, #A66, #422);
+  background-image: -ms-linear-gradient(left, #A66, 422);
+  background-image: -webkit-greadient(linear, 0, 0, 0, 100%, from (#A66), to(#422));
+  background-image: -webkit-linear-gradient(left, #A66, #422);
+  background-image: -o-linear-gradient(left, $A66, #422);
+  background-image: linear-gradient(left, #A66, #422);
+}
+
+.footer {
+  text-align: center;
+}
