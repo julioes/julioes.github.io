@@ -13,5 +13,5 @@ author:
 
 production_url: http://julioes.github.com
 
-permalink: /:year/:month/:title
+permalink: /blog/:year/:month/:title
 

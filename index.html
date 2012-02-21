@@ -1,12 +1,29 @@
 ---
-layout: layout
-title: "julioes.com"
 ---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html charset=utf-8" />
+    <title>{{ site.title }}</title>
+    <meta name="author" content="{{ site.author.name }}" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
+  </head>
+  <body id="main-body">
 
-{% for page in site.posts limit:5 %}
-<div class="post">
-  {% include post_header.html %}
-  {{ page.content }}
-</div>
-{% endfor %}
+    <div id="main-block">
+      <h1>{{ site.author.name }}</h1>
+      <p>Julio Espinoza-Sokal is a software developer in Washington, D.C. Since 2007 he has worked as a consultant in the Enterprise Content and Business Process Management industry.</p>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; {{ site.author.name }} </p>
+    </footer>
+
+    <script type="text/javascript" src="/js/bootstrap.min.js" />
+    <script type="text/javascript">
+    </script>
+  </body>
+</html>
 
