@@ -2,6 +2,10 @@
 exclude: ["readme.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
+markdown: rdiscount
+
+rdiscount:
+  extensions: [smart]
 
 title: julioes.com
 
