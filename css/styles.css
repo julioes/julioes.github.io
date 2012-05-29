@@ -66,7 +66,7 @@ div#main-block ul a:hover {
   text-align: center;
   color: #776;
   position: fixed;
-  padding: 1% 0px 5px 0px;
+  padding: 13px 0px 5px 0px;
   bottom: 0;
   width: 100%;
   background-color: #DDD;
@@ -80,7 +80,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dddddd', e
 }
 
 footer p {
-  margin: 10px 0px 0px 0px;
-  height: 2em;
+  margin: 5px 0px 0px 0px;
+  padding: 0px 10% 0px 10%;
 }
 
