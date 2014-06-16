@@ -1,4 +1,4 @@
-
+include: [".well-known"]
 exclude: ["readme.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
