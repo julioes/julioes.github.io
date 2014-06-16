@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/julioes
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://julioes
+  * I am julioes (https://keybase.io/julioes) on keybase.
+  * I have a public key with fingerprint 0120 6317 A732 FE98 2B9C  FBA6 06B4 94C2 4A39 5816
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "01206317a732fe982b9cfba606b494c24a395816",
+            "host": "keybase.io",
+            "key_id": "06b494c24a395816",
+            "uid": "776743a356036f622a3d6809a28c1e00",
+            "username": "julioes"
+        },
+        "service": {
+            "hostname": "julioes",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1402945918,
+    "expire_in": 157680000,
+    "prev": "44613a886a521b25e3ddbebfc31b17ae39f46a752ca44051dbbcd48ecd380e97",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.22
+Comment: https://keybase.io/crypto
+
+yMHvAnicZZFtSFRZGMfHl7SMWTQoUtMPJ1+CRue+nHvuvRO0q4ZCFBoluG0x3Jcz
+402dO829M2azCjngskHbaiRRtEvfcmt3iTJX3Mws8qUyzYqs/CA5WUrth0zLFvJc
+qS91vhzO//z+/+c557lhj7MlxSxUwP//aOmOxNzqmQnadv5e0BAGsq7WAVcYVOGl
+zaP5vDjgD2g+E7gARTMUYmle4lnGg0WBkUXFI0uIQjIUocJAiRU5gUbAASp1w3KQ
+GFkycL6mE40c3Jpq5XzNB5cueB7xkJVYDlEs8iCGkVgVCZQoMYJCY4qyQAMHfFIN
+JvS+YLWmYwPUOwARQ5pCxPBS5S8AB/AHdFNX9GoiVpqm32V5zDq/BdVi2f3J7pY1
+n0peTAwhHDA03QdcNCEVU7PyaEgxIuREWnAAfMCvBbBbswiOJz2SZZXBIRIJIaJZ
+SRCQxDG0zHCYVVUZyx6FpWXye5gVPRBJPMcoEoQUR6uyrKhQwIrKChQWeVLfwPt9
+OnBB0qbkJZGG5vVJZjCAQX1vz554W0ySLWFZrDUzW9KK5M+TrGtK/JBYH007kTO8
+/PsEUyv3zo+MHi9xLuRM/jY6cDEr+9zDjr/CGzNTSirGMt5dy76X1/ltaGDvz43P
+YdG2+Jo25+OmNcUFc7vy0U2zzVb86+qDd5WOH8rDpXTRqeFL153Ng+3zr4eO/BKb
+CV70TZfZkxP+bY+eTY12h8d/Glv/yBh/m9F3tSx9ZPZ2V97EMx4hpWrD1KrLh6MT
+/50/U3iyeD70pMV9KPPOWmd/5P6Ol5GZuKxNmztz/sltb7hyLGVod9zThdN/Ot6g
+lWC2YCa1qTY9tvtoUcRbmAZ7J5tLK1r7t8++ipiFXfY2ba7xx+nEv+0fSx/kfvPd
+ui1TlYMZF963bk0JLwINnBLK
+=zPCj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/julioes
+
+==================================================================
