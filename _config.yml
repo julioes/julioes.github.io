@@ -1,6 +1,6 @@
 include: [".well-known"]
 exclude: ["readme.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 markdown: rdiscount
 
 rdiscount:
