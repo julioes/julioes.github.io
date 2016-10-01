@@ -1,7 +1,6 @@
 include: [".well-known"]
 exclude: ["readme.md", "Rakefile", "changelog.md"]
-auto: true
-pygments: true
+highlighter: pygments
 markdown: rdiscount
 
 rdiscount:
@@ -15,7 +14,7 @@ author:
   github: julioes
   twitter: jespinozasokal
 
-production_url: http://julioes.github.com
+production_url: https://www.julioes.com
 
 permalink: /blog/:year/:month/:title
 
