@@ -11,13 +11,14 @@ body {
   width: 100%;
 }
 
-div#feature {
+#feature {
   background-image: url('../img/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   position: relative;
+  transition: background-position 2s ease;
 }
 
 #feature > div {
@@ -43,6 +44,12 @@ div#feature {
 
   #title {
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 550px) {
+  #feature {
+    background-position-x: -100px;
   }
 }
 
