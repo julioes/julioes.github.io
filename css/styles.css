@@ -53,6 +53,7 @@ div#feature {
   font-size: 40pt;
   font-family: 'Macondo', cursive;
   line-height: 1.2em;
+  text-shadow: 0 0 20x black;
 }
 
 body#layout {
