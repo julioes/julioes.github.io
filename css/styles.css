@@ -1,6 +1,58 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background-color: #DDD;
-  min-width: 300px;
+  min-width: 400px;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+div#feature {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#feature > div {
+  position: relative;
+  top: 25%;
+  overflow: hidden;
+  transition: top 1s ease;
+}
+
+#title {
+  transform: translateX(25%);
+}
+
+/* class applied after load to avoid initial translate transition */
+.title-transition {
+  transition: transform 2s ease;
+}
+
+@media (max-width: 850px) {
+  #feature > div {
+    top: 5%;
+  }
+
+  #title {
+    transform: translateX(0);
+  }
+}
+
+#feature h1 {
+  margin: 0;
+  color: #fde7e2;
+  text-align: center;
+  font-size: 40pt;
+  font-family: 'Macondo', cursive;
+  line-height: 1.2em;
 }
 
 body#layout {

@@ -14,7 +14,14 @@
     <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
   </head>
   <body id="main-body">
-
+    <div id="feature">
+      <div>
+        <div id="title">
+          <h1>Julio<br />Espinoza-Sokal</h1>
+        </div>
+      </div>
+    </div>
+<!--
     <div id="main-block">
       <h1>{{ site.author.name }}</h1>
       <ul>
@@ -23,8 +30,14 @@
         <li><a href="https://github.com/julioes">GitHub</a></li>
       </ul>
     </div>
-
-    {% include footer.html %}
+-->
+<!--    {% include footer.html %} -->
     {% include global_scripts.html %}
+    <script>
+      (function () {
+        var el = document.getElementById('title');
+        el.classList.add('title-transition');
+      })();
+    </script>
   </body>
 </html>
