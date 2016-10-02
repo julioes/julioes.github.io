@@ -76,15 +76,18 @@ body#layout {
   }
 }
 
-#main-block {
+#main-block, #about-block {
   box-sizing: border-box;
-  min-height: calc(80vh - 43px);
-  padding-top: 5vh;
   background-image: linear-gradient(
     to bottom, 
     rgba(44, 42, 36, 0.3) 0, 
     rgba(44, 42, 36, 0.6) 100%);
-  overflow-x: hidden;
+  overflow-x: hidden;  
+}
+
+#main-block {
+  min-height: calc(80vh - 43px);
+  padding-top: 5vh;
 }
 
 #main-block ul {
@@ -116,13 +119,29 @@ body#layout {
   text-decoration: underline;
 }
 
-div#about-me {
-  margin: 10% 20%;
-  margin-top: 2em;
-  padding: 0.5em;
-  color: #776;
+#about-block {
+  min-height: calc(100vh - 43px);
+  padding-top: 5vh;
+}
+
+#about-me {
   overflow: auto;
   text-align: center;
+  position: relative;
+  display: inline-block;
+  width: 45%;
+  left: 50%;
+  top: 15vh;
+  box-sizing: border-box;
+  transition: left 2s ease, transform 2s ease, width 2s ease;
+}
+
+@media (max-width: 850px) {
+  #about-me {
+    left: 50%;
+    width: 85%;
+    transform: translateX(-50%);
+  }
 }
 
 div#about-me p {
