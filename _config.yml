@@ -18,3 +18,5 @@ production_url: https://www.julioes.com
 
 permalink: /blog/:year/:month/:title
 
+sass:
+  style: compressed

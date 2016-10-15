@@ -8,7 +8,11 @@ html {
   min-height: 450px;
 }
 
-body {
+a {
+  color: inherit;
+}
+
+#main-body {
   background-color: #DDD;
   color: #fde7e2;
   margin: 0;
@@ -65,22 +69,9 @@ body {
   text-shadow: 0 0 20x black;
 }
 
-body#layout {
-  padding-top: 60px;
-}
-
-@media (max-width: 980px) {
-  body#layout {
-    padding-top: 0px;
-  }
-}
-
-#main-block, #about-block {
+#main-block {
   box-sizing: border-box;
   overflow-x: hidden;  
-}
-
-#main-block {
   padding-top: 10vh;
   padding-bottom: 50px;
 }
@@ -126,72 +117,4 @@ body#layout {
 
 #main-block a:hover {
   text-decoration: underline;
-}
-
-#about-block {
-  min-height: calc(100vh - 43px);
-  padding-top: 5vh;
-}
-
-#about-me {
-  overflow: auto;
-  text-align: center;
-  position: relative;
-  display: inline-block;
-  width: 45%;
-  left: 50%;
-  top: 15vh;
-  box-sizing: border-box;
-  transition: left 2s ease, transform 2s ease, width 2s ease;
-}
-
-@media (max-width: 850px) {
-  #about-me {
-    left: 50%;
-    width: 85%;
-    transform: translateX(-50%);
-  }
-}
-
-div#about-me p {
-  line-height: 1.3em;
-  font-size: 16pt;
-  text-shadow: 0px 0px 25px #222;
-}
-
-footer {
-  text-align: center;
-  color: #fde7e2;
-  padding: 15px 0px 5px 0px;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  background-image: linear-gradient(
-    to bottom, 
-  rgba(44, 42, 36, 0) 0%,
-  rgba(22, 22, 18, 0.25) 40%,
-  rgba(10, 10, 5, 0.5) 100%);
-}
-
-footer {
-  line-height: 1.2em;
-}
-
-footer p {
-  margin: 5px 0px 0px 0px;
-  padding: 0px auto;
-}
-
-a {
-  color: inherit;
-}
-
-footer br {
-  display: none;
-}
-
-@media (max-width: 700px) {
-  footer br {
-    display: inherit;
-  }
 }
