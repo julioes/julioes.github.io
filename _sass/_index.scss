@@ -1,16 +1,3 @@
-html {
-  width: 100%;
-  height: 100%;
-}
-
-@viewport {
-  min-width: 500px;
-  min-height: 450px;
-}
-
-a {
-  color: inherit;
-}
 
 #main-body {
   background-color: #DDD;
@@ -36,7 +23,6 @@ a {
   padding-top: 20vh;
   padding-bottom: 0vh;
   overflow: hidden;
-  transition: padding 1s ease, height 1s ease;
 }
 
 #title {
@@ -44,7 +30,6 @@ a {
   position: relative;
   left: 60%;
   transform: translateX(0%);
-  transition: transform 2s ease, left 2s ease;
 }
 
 @media (max-width: 850px) {
@@ -85,8 +70,6 @@ a {
   position: relative;
   left: 65%;
   text-align: center;
-  transition: left 2s ease, transform 2s ease;
-  transform: translateX(0%);
 }
 
 @media (max-width: 850px) {
